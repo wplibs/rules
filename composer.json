@@ -1,0 +1,28 @@
+{
+    "name": "wplibs/rules",
+    "description": "A simple rules engine made for WordPress",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "awethemes",
+            "email": "support@awethemes.com"
+        },
+        {
+            "name": "Nguyen Van Anh",
+            "email": "anhskohbo@gmail.com"
+        }
+    ],
+    "require": {
+        "php": ">=5.6.0",
+        "ruler/ruler": "dev-master"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "4.8.*|5.7.*"
+    },
+    "autoload": {
+        "psr-4": {
+            "WPLibs\\Rules\\": "src/"
+        }
+    }
+}
